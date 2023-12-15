@@ -48,6 +48,10 @@ int main(int argc, char *argv[])
 	{
 		bnp_pall(&stack);
 	}
+	else if (strcmp(cunt_instru, "pint") == 0)
+	{
+		bnp_pint(&stack, cunt_line_num);
+	}
 	else
 	{
 		fprintf(stderr, "L%u: unknown instruction %s\n", cunt_line_num, cunt_instru);
