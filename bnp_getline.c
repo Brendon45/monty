@@ -45,7 +45,7 @@ int bnp_getline(char **customBuf, size_t *customBufSize, FILE *inputStr)
 	/*Handle case where EOF is encountered, and no characters were read*/
 	if (character == EOF && position == 0)
 	{
-	free(*customBuf);
+	free(*customBuf);		
 	return (-1);
 	}
 

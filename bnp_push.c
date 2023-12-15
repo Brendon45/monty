@@ -13,9 +13,9 @@ void bnp_push(stack_t **custom_stack, unsigned int line_num)
 
 	/* Extract the integer argument from the line */
 	input_arg = strtok(NULL, " \t\n");
-	if (input_arg == NULL || (input_arg))
+	if (input_arg == NULL || !check_numeric(input_arg))
 	{
-		fprintf(stderr, "L%u: usage: bnp_push integer\n", line_num);
+		fprintf(stderr, "L%u: usage: push integer\n", line_num);
 		exit(EXIT_FAILURE);
 	}
 
