@@ -1,18 +1,21 @@
 #include "monty.h"
-
 /**
-* bnp_pall - A function that implements the pall opcode
-* @stack: A pointer to the stack
-*
-* Return: Nothing on (Success)
+ * pall_f - prints the stack
+ * @head: stack head
+ * @counter: no used
+ * Return: no return
 */
-void bnp_pall(stack_t **stack)
+void pall_f(stack_t **head, unsigned int counter)
 {
-	stack_t *current_node = *stack;
-	/*Iterate through the custom stack and print each element*/
-	while (current_node != NULL)
+	stack_t *h;
+	(void)counter;
+
+	h = *head;
+	if (h == NULL)
+		return;
+	while (h)
 	{
-	printf("%d\n", current_node->n);
-	current_node = current_node->next;
+		printf("%d\n", h->n);
+		h = h->next;
 	}
 }

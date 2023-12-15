@@ -39,7 +39,7 @@ typedef struct instruction_s
 } instruction_t;
 
 /*Function prototypes for the monty*/
-void bnp_pall(stack_t **stack);
+void pall_f(stack_t **head, unsigned int counter);
 void bnp_push(stack_t **custom_stack, unsigned int line_num);
 int main(int argc, char *argv[]);
 int bnp_getline(char **customBuf, size_t *customBufSize, FILE *inputStr);
@@ -47,4 +47,8 @@ int check_numeric(const char *input_str);
 void bnp_pop(stack_t **custom_stack, unsigned int counter);
 void bnp_swap(stack_t **custom_stack, unsigned int counter);
 void bnp_add(stack_t **custom_stack, unsigned int counter);
+void bnp_div(stack_t **custom_stack, unsigned int counter);
+void bnp_mul(stack_t **custom_stack, unsigned int counter);
+void bnp_sub(stack_t **custom_stack, unsigned int counter);
+void bnp_mod(stack_t **custom_stack, unsigned int counter);
 #endif /*MONTY_H*/
