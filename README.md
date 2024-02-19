@@ -180,6 +180,7 @@ Usage: nop
 
 ## AUTHORS:
 Brendon Jeje <jejebrendon722@gmail.com.
+
 Paida Gwetsai <paidacherry@gmail.com>
 
 ![AFAFAFS](https://happycoding.io/tutorials/html/images/rainbow-logo-2.png)
