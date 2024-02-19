@@ -1,35 +1,39 @@
-0x19. C - Stacks, Queues - LIFO, FIFO
-C
-Group project
-Algorithm
-Data structure
+# 0x19. C - Stacks, Queues - LIFO, FIFO
+## C
+## Group project
+## Algorithm
+## Data structure
 
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=c89
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-You allowed to use a maximum of one global variable
-No more than 5 functions per file
-You are allowed to use the C standard library
-The prototypes of all your functions should be included in your header file called monty.h
-Don’t forget to push your header file
-All your header files should be include guarded
-You are expected to do the tasks in the order shown in the project
-##Compilation & Output
-Your code will be compiled this way:
+## Requirements
+
+##  General
+- Allowed editors: vi, vim, emacs
+- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=c89
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project is mandatory
+- Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+- You allowed to use a maximum of one global variable
+- No more than 5 functions per file
+- You are allowed to use the C standard library
+- The prototypes of all your functions should be included in your header file called monty.h
+- Don’t forget to push your header file
+- All your header files should be include guarded
+- You are expected to do the tasks in the order shown in the project
+  
+## Compilation & Output
+## Your code will be compiled this way:
 $ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
 Any output must be printed on stdout
 Any error message must be printed on stderr
-Tests
+## Tests
 We strongly encourage you to work all together on a set of tests
 
-The Monty language
+## The Monty language
+
 Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
-##Mandatory tasks
-0. push, pall
+
+## Mandatory tasks
+## 0. push, pall
 mandatory
 Implement the push and pall opcodes.
 
@@ -58,7 +62,7 @@ pall$
 2
 1
   
-1. pint
+## 1. pint
 mandatory
 Implement the pint opcode.
 
@@ -81,7 +85,7 @@ pint
 3
 
   
-2. pop
+## 2. pop
 mandatory
 Implement the pop opcode.
 
@@ -111,7 +115,7 @@ pall
 1
 
   
-3. swap
+## 3. swap
 mandatory
 Implement the swap opcode.
 
@@ -136,7 +140,7 @@ pall
 3
 
   
-4. add
+## 4. add
 mandatory
 Implement the add opcode.
 
@@ -164,7 +168,7 @@ pall
 5
 1
   
-5. nop
+## 5. nop
 mandatory
 Implement the nop opcode.
 
@@ -173,3 +177,5 @@ The nop opcode
 The opcode nop doesn’t do anything.
 
 Usage: nop
+
+![AFAFAFS](https://happycoding.io/tutorials/html/images/rainbow-logo-2.png)
