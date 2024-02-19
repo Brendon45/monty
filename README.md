@@ -179,7 +179,7 @@ The opcode nop doesn’t do anything.
 Usage: nop
 
 ## AUTHORS:
-Brendon Jeje <jejebrendon722@gmail.com.
+Brendon Jeje <jejebrendon722@gmail.com>
 
 Paida Gwetsai <paidacherry@gmail.com>
 
